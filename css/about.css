@@ -1,0 +1,20 @@
+.aboutmetext{
+font-family: "Poppins", sans-serif;
+width: 800px;
+font-size: 17px;
+color: whitesmoke;
+white-space: pre-line;
+letter-spacing: 2px;
+
+}
+.me{
+    font-family: 'Roboto Mono', monospace;
+    color: #8257e5;
+}
+
+#aboutme{
+  
+        padding: 160px 150px 20px 150px;
+        
+    
+}

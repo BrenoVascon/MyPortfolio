@@ -1,0 +1,27 @@
+#projects{
+    color: #f1f1f1;
+padding: 140px 100px 10px 150px;
+font-family: "Poppins", sans-serif;
+}
+
+.cards{
+    display: flex;
+    gap: 40px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.card-01{
+    width: 300px;
+    height: 200px;
+    background: white;
+}
+.card-02{
+    width: 300px;
+    height: 200px;
+    background: white;
+}
+.card-03{
+    width: 300px;
+    height: 200px;
+    background: white;
+}

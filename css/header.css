@@ -1,0 +1,64 @@
+.header {
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #8257e5;
+    transition: all 300ms ease-in-out;}
+
+.header .header-container {
+    display: flex;
+    padding: 15px 40px;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 75px;
+    background-color: #8257e5;
+  }
+  .header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #8257e5;
+}
+
+.header input{
+    display: none;
+    background-color: #8257e5;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #8257e5;
+    
+}
+.fa-solid{
+    font-weight: 900;
+    position: absolute;
+    right: 70px;
+    bottom: 40px;
+    background-color: #8257e5;
+    color: whitesmoke;
+}
+.botH,
+.botSM,
+.botproj,
+.bottech,
+.botcontato{
+    background-color: #8257e5;
+
+}
+
+.scroll-down header{
+	
+		transform: translate3d(0, -100%, 0);
+	
+}
+
+.scroll-up header{
+	
+		filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+	
+}
+

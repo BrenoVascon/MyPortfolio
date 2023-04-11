@@ -1,0 +1,26 @@
+#pagina-inicial{
+    padding: 160px 150px 20px 150px;
+    
+}
+
+
+.textTittle{
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 10px;
+    color: whitesmoke;
+
+}
+
+.subtitulo{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+ 
+.mytext{
+    font-family: "Poppins", sans-serif;
+    width: 800px;
+    font-size: 17px;
+    color: whitesmoke;letter-spacing: 2px;
+}

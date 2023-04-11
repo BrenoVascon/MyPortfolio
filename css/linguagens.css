@@ -1,0 +1,54 @@
+.tecnologias-icon {
+    font-size: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.tecnologias{
+    color: #f1f1f1;
+    padding: 140px 120px 200px 149px;
+    font-family: "Poppins", sans-serif;
+}
+
+.tecnologias-icon {
+    font-size: 50px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .tecnologias-icon i {
+    color: #f1f1f1;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .tecnologias-icon i:hover {
+    color: #8257e5;
+  }
+  
+  .tecnologias {
+    color: #f1f1f1;
+    padding: 140px 120px 200px 149px;
+    font-family: "Poppins", sans-serif;
+  }
+
+   #contato {
+    padding: 140px 160px 200px
+   }
+  .contato-cv {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: solid 0.4px #f1f1f1;
+    transition: 0.2s ease-in;
+}
+.contato-cv:hover {
+    border: solid 0.4px #45373e;
+    background-color: #8257e5;}
+
+#contato h1{
+  color: #f1f1f1;
+  position: relative;
+  bottom: 30px;
+}
