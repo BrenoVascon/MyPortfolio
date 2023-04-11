@@ -4,7 +4,7 @@ padding: 140px 100px 10px 150px;
 font-family: "Poppins", sans-serif;
 }
 
-.cards{
+.Cards{
     display: flex;
     gap: 40px;
     flex-wrap: nowrap;
