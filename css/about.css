@@ -14,7 +14,13 @@ letter-spacing: 2px;
 
 #aboutme{
   
-        padding: 160px 150px 20px 150px;
-        
+        padding: 140px 150px 20px 150px;
+        background-color: #12121b;
+        height: 950px;
     
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
 }

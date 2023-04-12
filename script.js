@@ -36,3 +36,10 @@ window.addEventListener("scroll", () => {
 	}
 	lastScroll = currentScroll;
 });
+
+
+window.sr = ScrollReveal({reset: true});
+
+
+
+ScrollReveal().reveal('.me, .me-p, .myskills, .tecnologias', {delay: 600});

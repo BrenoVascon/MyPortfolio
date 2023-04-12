@@ -1,8 +1,16 @@
 #pagina-inicial{
-    padding: 160px 150px 20px 150px;
+    padding: 250px 120px 20px 150px;
+    width: 1980px;
+    height: 950px;
+
     
 }
-
+#pagina-inicial{
+    background-image: url(../img/backgroundspace.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+ 
+}
 
 .textTittle{
     font-family: 'Roboto Mono', monospace;
@@ -23,4 +31,8 @@
     width: 800px;
     font-size: 17px;
     color: whitesmoke;letter-spacing: 2px;
+}
+
+#home{
+    background-color: none;
 }

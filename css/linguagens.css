@@ -6,8 +6,14 @@
 
 .tecnologias{
     color: #f1f1f1;
-    padding: 140px 120px 200px 149px;
+    padding: 30px 120px 200px 149px;
     font-family: "Poppins", sans-serif;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px
 }
 
 .tecnologias-icon {
@@ -27,12 +33,12 @@
   
   .tecnologias {
     color: #f1f1f1;
-    padding: 140px 120px 200px 149px;
+   
     font-family: "Poppins", sans-serif;
   }
 
    #contato {
-    padding: 140px 160px 200px
+    padding: 140px 160px 200px;
    }
   .contato-cv {
     text-decoration: none;

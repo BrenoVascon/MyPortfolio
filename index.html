@@ -20,6 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto+Mono:ital,wght@1,500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header class="header">
@@ -36,7 +37,7 @@
                 <li><a href="#pagina-inicial" class="botH">Home</a></li>
                 <li><a href="#aboutme" class="botSM">Sobre Mim</a></li>
                 <li><a href="#projects" class="botproj">Projetos</a></li>
-                <li><a href="#tech" class="bottech">Tecnologias</a></li>
+                
                 <li><a href="#contato" class="botcontato">Contato</a></li>
             </ul>
         </nav>
@@ -46,7 +47,7 @@
         <div id="pagina-inicial">
             <article id="home">
               <div class="myInfo">
-                 <h1 class="textTittle"> Olá Mundo! <br />
+                 <h1 class="textTittle"> Olá 👋<br />
                     <span class="auto-text"></span>
                 </h1>
                 <h2 class="subtitulo">Front-end Developer</h2>
@@ -59,12 +60,32 @@
       <div class="sobre">
         <div class="aboutmetext">
           <h1 class="me">Sobre Mim</h1>
-          <p> Olá, meu nome é Breno Vasconcelos e sou um entusiasta da tecnologia e da área Geek.<br/> Atualmente, estou em transição de carreira e busco oportunidades de estágio na área de Front-End, na qual tenho grande interesse e prazer em aprender.
+          <p class="me-p"> Olá, meu nome é Breno Vasconcelos e sou um entusiasta da tecnologia e da área Geek.<br/> Atualmente, estou em transição de carreira e busco oportunidades de estágio na área de Front-End, na qual tenho grande interesse e prazer em aprender.
             Tenho 21 anos, moro e estudo em São Paulo e já possuo conhecimento em HTML, JavaScript e CSS. Além disso, estou estudando ReactJs e Node.JS para aprimorar minhas habilidades.<br>
             Estou aberto a oportunidades de estágio, freelancer e contratos temporários na área. <br/>Ficarei grato se puderem me oferecer uma chance para demonstrar minhas habilidades e conhecimentos.</p>
         </div>
+        </div>
+        
+         
+          <article class="tecnologias" id="tecnologias">
+           <h2 class="tecnologias-titulo"></h2>
+           <img class="myskills"src="/img/myskyll.svg" alt="minhas skills">
+          
+           <div class="tecnologias-container">
+             <figure class="tecnologias-icon">
+               <i id="html" class="fa-brands fa-html5"></i>
+               <i id="css" class="fa-brands fa-css3-alt"></i>
+               <i id="js" class="fa-brands fa-js"></i>
+               <i id="react" class="fa-brands fa-react"></i>
+               <i id="git" class="fa-brands fa-git-alt"></i>
+               <i class="fa-brands fa-node"></i>
+             </figure>
+            </div>
+             </article>
+            </article>
+          </div>
       </div>
-    </article>
+ 
     <article id="projects">
        <div class ="Projetos">
         <h2>Projetos</h2>
@@ -75,22 +96,7 @@
           <div class ="card-03"></div>
         </div>
     </article>
-   <article id ="tech">
-     <div class="Tecnologias"></div>
-     <article class="tecnologias" id="tecnologias">
-      <h2 class="tecnologias-titulo">Tecnologias</h2>
-
-      <div class="tecnologias-container">
-        <figure class="tecnologias-icon">
-          <i id="html" class="fa-brands fa-html5"></i>
-          <i id="css" class="fa-brands fa-css3-alt"></i>
-          <i id="js" class="fa-brands fa-js"></i>
-          <i id="react" class="fa-brands fa-react"></i>
-          <i id="git" class="fa-brands fa-git-alt"></i>
-          <i class="fa-brands fa-node"></i>
-        </figure>
-        </article>
-   </article>
+   
     </div>
     <div id="contato">
       <h1>Contato</h1>
@@ -101,5 +107,7 @@
     >Download CV</a
   ></div>
 </body>
+<!--ScrollReview-->
+<script src="https://unpkg.com/scrollreveal"></script>
 <script type="text/javascript" src="script.js" ></script>
 </html>
