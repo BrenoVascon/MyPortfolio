@@ -1,17 +1,35 @@
 #pagina-inicial{
     padding: 250px 120px 20px 150px;
-    width: 1980px;
+    
     height: 950px;
 
     
 }
 #pagina-inicial{
     background-image: url(../img/backgroundspace.png);
-    background-repeat: no-repeat;
-    background-size: auto;
- 
+    background-size: 1920px;
+    background-position: 0px -250px;
 }
+.Menucont{
+    font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 41px;
+line-height: 49px;
+text-align: center;
 
+color: #FFFFFF;
+
+position: relative;
+bottom: 230px;
+width: 200px;
+left: 1550px;
+
+}
+.box-p{
+    position: absolute;
+    left: 520px;
+}
 .textTittle{
     font-family: 'Roboto Mono', monospace;
     margin-bottom: 10px;
@@ -31,8 +49,33 @@
     width: 800px;
     font-size: 17px;
     color: whitesmoke;letter-spacing: 2px;
+    position: relative;
+    top: 250px;
+    left: 420px;
+    z-index: 30;
+
 }
 
 #home{
     background-color: none;
+}
+
+.RdSociais{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+position: absolute;
+width: 46.12px;
+height: 330px;
+left: 69px;
+top: 393px;
+
+}
+
+.instagram, .github, .linkedin{
+
+    width: 30px;
 }
