@@ -6,11 +6,11 @@ new TypeIt(".auto-text", {
 
 
 
-new TypeIt(".mytext", {
-  strings: "Olá, bem-vindo(a) ao meu portfólio! Sou um desenvolvedor Front-end apaixonado por criar interfaces impactantes que conectam as pessoas à tecnologia. Com habilidades técnicas sólidas e um olhar atento ao design, sempre busco produzir soluções criativas e eficientes para enfrentar desafios de todos os tipos.",
-  speed: 10,
-  waitUntilVisible: true,
-}).go();
+// new TypeIt(".mytext", {
+//   strings: "Olá, bem-vindo(a) ao meu portfólio! Sou um desenvolvedor Front-end apaixonado por criar interfaces impactantes que conectam as pessoas à tecnologia. Com habilidades técnicas sólidas e um olhar atento ao design, sempre busco produzir soluções criativas e eficientes para enfrentar desafios de todos os tipos.",
+//   speed: 10,
+//   waitUntilVisible: true,
+// }).go();
 
 
 

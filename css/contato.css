@@ -1,0 +1,66 @@
+.ContainerCt{
+    background-image: url(../img/background-contact.png);
+    height: 980px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.image-contact{
+    display: flex;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+
+form {
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 10px;
+    padding: 50px;
+  }
+  
+  input, textarea, button {
+    background-color: #CEB7FF ;
+    opacity : 0.5;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 18px;
+    outline: none;
+    padding: 15px;
+    width: 600px;
+  }
+  
+  button {
+    color: #777;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+ 
+
+  .lmsg, .lname, .lemail{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    color:#FFFFFF;
+  }
+  
+  .RdSociais2{
+    position: relative;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    /* justify-content: space-between; */
+    align-items: center;
+    bottom: 20px;
+  }

@@ -1,3 +1,10 @@
+img.myskills{
+  position: relative;
+  left: 260px;
+}
+
+
+
 .tecnologias-icon {
     font-size: 50px;
     display: flex;
