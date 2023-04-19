@@ -44,9 +44,7 @@ img.myskills{
     font-family: "Poppins", sans-serif;
   }
 
-   #contato {
-    padding: 140px 160px 200px;
-   }
+   
   .contato-cv {
     text-decoration: none;
     color: #f1f1f1;
@@ -55,13 +53,12 @@ img.myskills{
     border-radius: 8px;
     border: solid 0.4px #f1f1f1;
     transition: 0.2s ease-in;
+    right: 40px;
+    position: absolute;
+    bottom: -2930px;
+
 }
 .contato-cv:hover {
     border: solid 0.4px #45373e;
     background-color: #8257e5;}
 
-#contato h1{
-  color: #f1f1f1;
-  position: relative;
-  bottom: 30px;
-}

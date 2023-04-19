@@ -5,6 +5,7 @@ font-size: 17px;
 color: whitesmoke;
 white-space: pre-line;
 letter-spacing: 2px;
+font-weight: 500;
 
 }
 
@@ -17,7 +18,7 @@ letter-spacing: 2px;
 
 #aboutme{
   
-    padding: 140px 150px 20px 150px;
+    padding: 0px 150px 20px 150px;
     background-image: url(/img/backgroundskill.png);
     height: 970px;
     background-position-x: 70px;
@@ -31,3 +32,17 @@ letter-spacing: 2px;
     display: flex;
     justify-content: center;
 }
+
+.grid-container {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    bottom: 40px;
+  }
+  
+  .grid-item {
+    border: 2px solid #CEB7FF;
+    padding: 10px;
+    text-align: center;
+  }

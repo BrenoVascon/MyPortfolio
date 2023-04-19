@@ -2,6 +2,10 @@
     color: #f1f1f1;
 padding: 140px 100px 10px 150px;
 font-family: "Poppins", sans-serif;
+background-image: url(/img/imgproject.png);
+background-size: 1920px;
+    background-position: 0px -50px;
+    height: 990px;
 }
 
 .Cards{
