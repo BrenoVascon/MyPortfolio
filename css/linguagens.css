@@ -1,6 +1,5 @@
 img.myskills{
-  position: relative;
-  left: 260px;
+  
 }
 
 
@@ -20,7 +19,7 @@ img.myskills{
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 10px
+    gap: 50px;
 }
 
 .tecnologias-icon {
@@ -43,6 +42,9 @@ img.myskills{
    
     font-family: "Poppins", sans-serif;
   }
+     .grid-item:hover{
+      color: #CEB7FF;
+     } 
 
    
   .contato-cv {

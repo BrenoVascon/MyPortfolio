@@ -21,14 +21,25 @@ text-align: center;
 color: #FFFFFF;
 
 position: relative;
-bottom: 230px;
-width: 200px;
-left: 1550px;
+display: flex;
+justify-content: flex-end;
+bottom: 200px;
+
 
 }
+
+.ajuste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .box-p{
-    position: absolute;
-    left: 520px;
+    position: relative;
+    left: 0px;
+    width: 55%;
+    min-width: 620px;
 }
 .textTittle{
     font-family: 'Roboto Mono', monospace;
@@ -46,14 +57,18 @@ left: 1550px;
  
 .mytext{
     font-family: "Poppins", sans-serif;
-    width: 800px;
-    font-size: 17px;
+    width: 43%;
+    min-width: 480px;
+    font-size: 16px;
     color: whitesmoke;letter-spacing: 2px;
     position: relative;
-    top: 250px;
-    left: 420px;
+    top: 230px;
+    left: 0;
     z-index: 30;
 
+}
+.container{
+    
 }
 
 #home{

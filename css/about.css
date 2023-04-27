@@ -7,6 +7,12 @@ white-space: pre-line;
 letter-spacing: 2px;
 font-weight: 500;
 
+margin-top: 40px;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 

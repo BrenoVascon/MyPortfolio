@@ -1,6 +1,6 @@
 .ContainerCt{
     background-image: url(../img/background-contact.png);
-    height: 980px;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,4 +63,8 @@ form {
     /* justify-content: space-between; */
     align-items: center;
     bottom: 20px;
+  }
+
+  .linkedin:hover, .instagram:hover, .github:hover{
+    transform: scale(1.2);
   }
