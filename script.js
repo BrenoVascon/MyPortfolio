@@ -31,4 +31,4 @@ window.addEventListener('scroll', () => {
 });
 
 
-ScrollReveal().reveal('.me, .me-p, .myskills, .tecnologias', {delay: 600});
+ScrollReveal().reveal('.me, .me-p, .myskills, .tecnologias, .myproject, .Projetos, .slider, .image-contact, .form-Contact, RdSociais2', {delay: 600});
